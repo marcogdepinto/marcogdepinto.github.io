@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Marco Giuseppe de Pinto | Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% load static %}
+  <link rel="stylesheet" type="text/css" href="{% static 'articles/css/styles.css' %}" />
+  <link rel="font" href="{% static 'articles/fonts/Andis-Light.ttf' %}">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+  </script>
+</head>
+<body style="background-color:#e7f1f5">
+<div class="jumbotron text-center" id="myJumbotron" style="background-color:#d2edf8">
+  <img src="{% static "articles/images/Image.jpeg" %}" class="img-circle img-responsive" alt="Pic" width="170" height="170" id="myImg">
+  <h1>Marco Giuseppe de Pinto</h1>
+  <p>Python Developer - Business Analyst</p>
+  <p>
+    <a href="mailto:marcog.depinto@gmail.com" title="Gmail"><i class="fa fa-envelope" style="font-size: 30px;"></i></a>
+    <a href="https://www.linkedin.com/in/marcogdepinto/" title="LinkedIn"><i class="fa fa-linkedin" style="font-size: 30px;"></i></a>
+    <a href="https://twitter.com/marcogdepinto" title="Twitter"><i class="fa fa-twitter" style="font-size: 30px;"></i></a>
+    <a href="https://github.com/marcogdepinto" title="Github"><i class="fa fa-github" style="font-size: 30px;"></i></a>
+  </p>
+</div>
+
+<div class="container" id="quotesContainer">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Chi sono</h3>
+      <p>"Lo scopo dell’apprendimento è la crescita, e la nostra mente, a differenza del nostro corpo, può continuare a crescere fintanto che continuiamo a vivere."</p>
+      <p>Mortimer J. Adler</p>
+      <p><a type="button" class="btn btn-default" href="#aboutMeDescription" role="button">Leggi di più »</a></p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Perchè programmo</h3>
+      <p>"Per gli hacker un computer significa anche intrattenimento. Non i giochi, non le belle immagini sulla Rete. Il computer in sé è intrattenimento."</p>
+      <p>Linus Torvalds</p>
+      <p><a type="button" class="btn btn-default" href="#codingContainer" role="button">Leggi di più »</a></p>
+    </div>
+    <div class="col-sm-4" >
+      <h3>Cosa ho realizzato</h3>
+      <p>In ogni strada di questo paese c'è un nessuno che sogna di diventare qualcuno. È un uomo dimenticato e solitario che deve disperatamente provare di essere vivo.</p>
+      <p>Robert De Niro in Taxi driver, 1976.</p>
+      <p><a type="button" class="btn btn-default" href="#projectsContainer" role="button">Leggi di più »</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="mapContainer">
+  <div class="row">
+    <div class="col-sm-12" id="mapDesc">
+      <h3>I paesi con cui ho lavorato fino ad ora</h3>
+    </div>
+    <div class="col-sm-12" id="mapPic">
+      <img src="{% static "articles/images/amCharts.jpg" %}" class="img-responsive" alt="Pic">
+    </div>
+  </div>
+</div>
+
+<div class="container" id="infoContainer">
+  <div class="row">
+    <div class="col-sm-2" id="aboutMeDescription">
+      <h4>Su di me</h4>
+    </div>
+    <div class="col-sm-10" id="myStory">
+      <p>Avete presente quella persona che un pò tutti abbiamo in famiglia e che chiamiamo quando c'è un problema al PC?
+         Se foste membri della mia famiglia, chiamereste me.<br>
+         Cresciuto a pane e computer ma con l'idea di diventare avvocato e quindi, dopo il liceo, ho studiato Giurisprudenza.<br>
+         Nonostante questo, non sono mai riuscito a staccarmi da ciò che amavo di più: ho cominciato a fare supporto tecnico a 22 anni e lo faccio ancora oggi.<br>
+         Laureato nel 2014, sono entrato in uno studio legale: il mio Dominus (per chi non fosse del mestiere, i praticanti chiamano così l'avvocato che gli insegna come fare il suo splendido mestiere)
+         amava ripetermi che avevo sbagliato tutto. E aveva ragione.<br>
+         A 26 anni ho cominciato a lavorare in Wolters Kluwer, divisione software per avvocati, sempre nel supporto tecnico.<br>
+         Lavorando a contatto con gli sviluppatori, sono rimasto affascinato da come riuscissero a creare cose meravigliose semplicemente scrivendo.<br>
+         E ho iniziato a farlo anche io.<br>
+         Ho studiato SQL di notte, dopo il lavoro, usando risorse come <a href ="http://sqlzoo.net/">SQLzoo</a> per riuscire a capire meglio il funzionamento dei software su cui facevo assistenza.
+         Dopo qualche mese, ho creato <a href="www.gabriellacipriani.it">il mio primo sito web</a> con Wordpress.<br>
+         Ho cominciato a lavorare come Business Analyst su progetti strategici. Poi è arrivato Python.<br>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="whyContainer">
+  <div class="row">
+    <div class="col-sm-2" id="whyCoding">
+      <h4>Perchè programmo</h4>
+    </div>
+    <div class="col-sm-10" id="whyCodingDescription">
+      <p>Programmare è meraviglioso: consente a chiunque di creare qualcosa partendo dal nulla e di poter risolvere problemi semplici o complessi della vita di tutti i giorni.
+         <a href="https://github.com/marcogdepinto/LifeCounter">La mia prima applicazione</a> è nata così, per risolvere un problema sorto parlando con gli amici davanti ad una tazza di caffè.<br>
+        Ho poi cominciato a usare quello che avevo imparato per <a href="https://github.com/marcogdepinto/PythonScripts">automatizzare alcune operazioni svolte per lavoro.</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="codingContainer">
+  <div class="row">
+    <div class="col-sm-2" id="aboutCodingDescription">
+      <h4>Perchè ho scelto Python e come ho imparato</h4>
+    </div>
+    <div class="col-sm-10" id="codingStory">
+      <p>La scelta di Python è stata naturale: mi sono rivolto al linguaggio con la sintassi più simile all'Inglese.<br>
+         Grazie a <a href="https://www.codecademy.com/">Codecademy</a> ho cominciato, nel 2014, ad apprenderne le basi.<br>
+         Da Codecademy ai MOOCs (<a href="https://it.wikipedia.org/wiki/MOOC"> Massive Online Courses</a>) il passo è stato breve: ho seguito con passione una serie di corsi su Python
+         a cura del prof. Charles Severance, Michigan University, offerti gratuitamente da <a href="https://www.coursera.org/">Coursera</a>.<br>
+         I corsi sopra fanno oggi parte della <a href=https://www.coursera.org/specializations/python>Specializzazione Python</a>
+         che vi consiglio, qualora stiate pensato anche voi come cominciare a creare qualcosa.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="projectsContainer">
+  <div class="row">
+    <div class="col-sm-2" id="projectsDescription">
+      <h4>Cosa ho realizzato e su cosa sto lavorando</h4>
+    </div>
+    <div class="col-sm-10" id="projectsStory">
+      <p>
+        Il sito web che state guardando è il mio ultimo progetto, ma potete vederne molti altri dando un'occhiata al mio <a href="https://github.com/marcogdepinto">Github</a>.<br>
+        Per gli interessati, il sito è realizzando utilizzando Python (Django), un pizzico di javascript e (ovviamente) HTML e CSS.<br>
+        In questo momento, oltre a sviluppare le mie conoscenze in materia di sviluppo web, sto studiando analisi di dati e machine learning: in particolare
+        sto seguendo <a href="https://www.coursera.org/learn/machine-learning">il corso di Andrew Ng (Stanford University) su Coursera</a> e leggendo una serie di libri
+        tra cui <a href="https://www.packtpub.com/big-data-and-business-intelligence/python-machine-learning-second-edition">"Python Machine Learning - Second Edition"
+        a cura di Sebastian Raschka e Vahid Mirjalili</a> e <a href="https://leanpub.com/learningthepandaslibrary">"Learning the Pandas Library" di Matt Harrison</a>.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="jumbotron text-center">
+    <p>
+      <a href="{% url 'index' %}" title="Home">&nbsp;&nbsp;Home&nbsp;&nbsp;</a>
+      <a href="#myStory" title="Su di me">&nbsp;&nbsp;Su di me&nbsp;&nbsp;</a>
+      <a href="#" title="CV">&nbsp;&nbsp;Curriculum&nbsp;&nbsp;</a>
+      <a href="https://github.com/marcogdepinto" title="Progetti">&nbsp;&nbsp;Progetti&nbsp;&nbsp;</a>
+      <a href="#" title="Contatti">&nbsp;&nbsp;Contatti&nbsp;&nbsp;</a>
+      <h6> © 2018 Marco Giuseppe de Pinto. Tutti i diritti riservati. </h6>
+    </p>
+  </div>
+</div>
+</body>
+</html>
