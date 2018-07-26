@@ -32,6 +32,23 @@
   margin: 0 auto;
 }
 
+/* Inserting space between the sections */
+
+#infoContainer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#projectsContainer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#whyContainer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 /* Justifying text */
 
 #myStory {
