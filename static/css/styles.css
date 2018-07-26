@@ -1,0 +1,54 @@
+/* Centering the map picture */
+
+.col-sm-12 .img-responsive {
+  margin: 0 auto;
+}
+
+/* Centering the map description */
+
+#mapDesc {
+  text-align: center;
+}
+
+/* Setting distance between the map and the elements above and below it */
+
+#mapContainer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#mapPic {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.footer {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+/* Centering the profile picture */
+#myImg {
+  margin: 0 auto;
+}
+
+/* Justifying text */
+
+#myStory {
+  text-align: justify;
+}
+
+#codingStory {
+  text-align: justify;
+}
+
+#whyCodingDescription {
+  text-align: justify;
+}
+
+/* Setting social icons dimensions*/
+
+.fa {
+  width: 48px !important;
+  height: 48px !important;
+}
