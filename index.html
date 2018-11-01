@@ -10,38 +10,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script>
-  $(document).ready(function(){
-    // Add smooth scrolling to all links
-    $("a").on('click', function(event) {
 
-      // Make sure this.hash has a value before overriding default behavior
-      if (this.hash !== "") {
-        // Prevent default anchor click behavior
-        event.preventDefault();
-
-        // Store hash
-        var hash = this.hash;
-
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 800, function(){
-
-          // Add hash (#) to URL when done scrolling (default click behavior)
-          window.location.hash = hash;
-        });
-      } // End if
-    });
-  });
-  </script>
 </head>
 <body style="background-color:#e7f1f5">
 <div class="jumbotron text-center" id="myJumbotron" style="background-color:white">
   <img src="assets/images/VAL_7302.JPG" class="img-responsive" alt="Pic" width="170" height="170" id="myImg">
   <h1>Marco Giuseppe de Pinto</h1>
-  <p>Business Analyst and Customer Service at Wolters Kluwer</p>
+  <p>Deputy Project Lead, Business Analyst and Customer Service at Wolters Kluwer</p>
   <p>
     <a href="mailto:marcog.depinto@gmail.com" title="Gmail"><i class="fa fa-envelope" style="font-size: 30px;"></i></a>
     <a href="https://www.linkedin.com/in/marcogdepinto/" title="LinkedIn"><i class="fa fa-linkedin" style="font-size: 30px;"></i></a>
@@ -50,41 +25,20 @@
   </p>
 </div>
 
-<div class="container" id="quotesContainer">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>About me</h3>
-      <p>"Develop a passion for learning. If you do, you will never cease to grow."</p>
-      <p>Anthony J. D'Angelo</p>
-      <p><a type="button" class="btn btn-default" href="#aboutMeDescription" role="button">Read more »</a></p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Professional Skills</h3>
-      <p>“It is better to build than to break.”</p>
-      <p></p>
-      <p>Lailah Gifty Akita</p>
-      <p><a type="button" class="btn btn-default" href="#codingContainer" role="button">Read more »</a></p>
-    </div>
-    <div class="col-sm-4" >
-      <h3>Projects</h3>
-      <p>"Every great developer you know got there by solving problems they were unqualified to solve until they actually did it."</p>
-      <p><a type="button" class="btn btn-default" href="#projectsContainer" role="button">Read more »</a></p>
-    </div>
-  </div>
-</div>
-
 <div class="container" id="infoContainer">
   <div class="row">
     <div class="col-sm-2" id="aboutMeDescription">
       <h4>About me</h4>
     </div>
     <div class="col-sm-10" id="myStory">
-      <p>Experienced Business Analyst with 2+ years of experience in data, requirements and documents analysis, 7+ years in Customer Service and 2+ years in Python development. <br></p>
-      <p>Able to operate at both business and technical level in fast paced environments, with solid communication and presentation skills and a background in large projects working with people from very diverse backgrounds.<br></p>
-      <p>Demonstrated strengths in project management (working on a project with 7 countries involved since 2016) with the ability to cultivate relationships with clients and stakeholders at all levels.<br></p>
-      <p>My career goal is to have fun in what I do on a daily basis, enjoying the time spent with the team while having a chance to contribute to something great and unique.<br></p>
-      <p>Passionate about machine learning, I have already applied the following techniques to make predictions for real-world problems: Linear Regression, Logistic Regression, K-Nearest Neighbors, Decision Tree, Random Forest, LightGBM, XGBoost, SVM, K-Means Clustering, PCA.<br>
-      </p>
+      <p>Leading complex digital transformation projects (500+ users in 8 EMEA – LATAM countries) to provide strategic perspective, business insights and solutions to customers from the initial ideation phase through final execution.<br></p>
+      <p>Able to operate at both business and technical level in fast paced environments, with solid communication and presentation skills and a background cultivating relationships with clients at all levels and from very diverse backgrounds.<br></p>
+      <p>Proactively communicating regular updates, trends and the impact of changes to all internal and external stakeholders, synthesizing feedback and adjusting plans accordingly.<br></p>
+      <p>Coordinating diverse, cross-functional, remote, agile teams, implementing strategy and setting goals with the aim of maintaining productivity while working through challenging deadlines.<br></p>
+      <p>Driving process improvements, consulting with cross-functional teams to understand needs and pain points related to tools and to solve workflow problems.<br></p>
+      <p>Analyzing large, complex data sets and converting them into information to drive business decisions at all levels of the organization.<br></p>
+      <p>Traveling across the world to collect product feedback and ideas: already visited customers in Italy, Brazil and Romania to overcome business challenges and identify new business opportunities.<br></p>
+      <p>Creating metrics, reports and KPIs to evaluate the success and the pain points of the projects and to ensure control and operation of all areas.<br></p>
     </div>
   </div>
 </div>
@@ -98,9 +52,9 @@
       <p>Professional skills:<br>
          Business process consulting, process analysis and improvement, exploratory data analysis, business analysis, communication, negotiation, strategic thinking, product design, project management.<br></p>
       <p>Technical skills:<br>
-         SQL, Python, Excel, Scikit-Learn, Pandas, Matplotlib, Numpy, Pandas, Seaborn, Jupyter Notebook, Django, Kivy, MacOS, Linux, Ubuntu, Git, Pycharm.<br></p>
+         SQL, Python, Excel, Tableau, Javascript, Scikit-Learn, Pandas, Matplotlib, Numpy, Seaborn, Jupyter Notebook, Django, Kivy, MacOS, Linux, Ubuntu, Git, Pycharm.<br></p>
       <p>Languages:<br>
-         Italian (native), English (fluent, IELTS Academic 7 - 2015), German and Spanish (basic knowledge).<br></p>
+         Italian, English (fluent, IELTS Academic 7 - 2015)<br></p>
       </p>
     </div>
   </div>
@@ -112,11 +66,9 @@
       <h4>Projects</h4>
     </div>
     <div class="col-sm-10" id="projectsStory">
-      <p><a href="https://www.kaggle.com/marcogdepinto/titanic-with-python-first-competition">- Analysis of the Titanic dataset (actually top 4% in the Kaggle leaderboard).</a></p>
-      <p><a href="https://github.com/marcogdepinto/Personal-Website">- Personal website realized using Python (Django), Bootstrap and some Javascript.</a></p>
-      <p><a href="https://www.kaggle.com/marcogdepinto/italian-public-employees-absence-rate-analysis">- An analysis of absence percentage of employees of ARTI (Apulian Innovation Agency) made with Python (Pandas, Matplotlib, Seaborn).</a></p>
-      <p><a href="https://github.com/marcogdepinto/PasswordManager">- A password manager built using Python, MySqlDB and Kivy.</a></p>
-      <p><a href="https://github.com/marcogdepinto/LifeCounter/blob/master/main.py">- A basic life counter for Magic the Gathering developed in Python using the Kivy framework.</a></p>
+      <p><a href="https://www.kaggle.com/marcogdepinto/titanic-with-python-first-competition">- Analysis of the Titanic dataset (actually top 6% in the Kaggle leaderboard).</a></p>
+      <p><a href="https://www.kaggle.com/marcogdepinto/let-s-discover-more-about-the-olympic-games">- Olympic Games History Data Analysis</a></p>
+      <p><a href="https://www.kaggle.com/marcogdepinto/2016-presidential-elections-on-facebook">- Analysis of the 2016 presidential elections on Facebook</a></p>
     </div>
   </div>
 </div>
@@ -137,7 +89,6 @@
     <p>
       <a href="#myJumbotron" title="Home">&nbsp;&nbsp;Home&nbsp;&nbsp;</a>
       <a href="#myStory" title="About me">&nbsp;&nbsp;About me&nbsp;&nbsp;</a>
-      <a href="https://drive.google.com/open?id=1vsqTnspJ4D4MkQ-SgjqFcAT56OknvfaK" title="CV">&nbsp;&nbsp;My Resume&nbsp;&nbsp;</a>
       <a href="https://www.kaggle.com/marcogdepinto">&nbsp;&nbsp;My Kaggle Profile&nbsp;&nbsp;</a>
       <a href="https://github.com/marcogdepinto" title="Progetti">&nbsp;&nbsp;Projects&nbsp;&nbsp;</a>
       <a href="#" title="Contatti">&nbsp;&nbsp;Contacts&nbsp;&nbsp;</a>
