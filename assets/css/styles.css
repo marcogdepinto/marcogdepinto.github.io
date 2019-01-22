@@ -34,36 +34,14 @@
   margin: 0 auto;
 }
 
-/* Inserting space between the sections */
 
-#infoContainer {
-  margin-top: 10px;
-  margin-bottom: 10px;
+/* Hiding jumbotrons
+
+#Jumbotron1 {
+    display: none;
 }
 
-#projectsContainer {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-#whyContainer {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-/* Justifying text */
-
-#myStory {
-  text-align: justify;
-}
-
-#codingStory {
-  text-align: justify;
-}
-
-#whyCodingDescription {
-  text-align: justify;
-}
+*/
 
 /* Setting social icons dimensions*/
 
