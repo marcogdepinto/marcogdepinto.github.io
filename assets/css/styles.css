@@ -1,6 +1,4 @@
 /* Centering the map picture */
-/* Centering the map picture */
-/* Centering the map picture */
 
 .col-sm-12 .img-responsive {
   margin: 0 auto;
@@ -45,6 +43,11 @@
 /* Setting social icons dimensions*/
 
 .fa {
+  width: 48px !important;
+  height: 48px !important;
+}
+
+.fab {
   width: 48px !important;
   height: 48px !important;
 }
