@@ -32,6 +32,31 @@
   margin: 0 auto;
 }
 
+/* Centering the text divs */
+
+#mapDesc {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#myStoryDesc {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#myProjects {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#Jumbotron4 {
+  margin-bottom: 220px;
+}
+
+
 /* Hiding jumbotrons
 
 #Jumbotron1 {
