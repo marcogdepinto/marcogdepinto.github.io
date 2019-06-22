@@ -52,11 +52,6 @@
   transform: translateY(-50%);
 }
 
-#Jumbotron4 {
-  margin-bottom: 220px;
-}
-
-
 /* Hiding jumbotrons
 
 #Jumbotron1 {
@@ -76,4 +71,5 @@
 
 .panel-footer.panel-custom {
     background-color: white;
+    margin-top:20px;
 }
