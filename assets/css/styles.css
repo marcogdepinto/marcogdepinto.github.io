@@ -46,20 +46,6 @@
   transform: translateY(-50%);
 }
 
-#myProjects {
-  position: relative;
-  top: 50%;
-  transform: translateY(-20%);
-}
-
-/* Hiding jumbotrons
-
-#Jumbotron1 {
-    display: none;
-}
-
-*/
-
 /* Setting social icons dimensions*/
 
 .fa {
